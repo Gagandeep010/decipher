@@ -109,26 +109,26 @@
         display: flex; 
         gap: 10px; 
         margin-bottom: 10px; 
-        margin-left: 4%;
+        margin-left: 15%;
     }
     
     .center .layout-image .image-not-flex {
         display: flex; 
         gap: 10px; 
-        margin-left: 39.2%;
+        margin-left: 62.7%;
     }
     
     .center2 .layout-image .image-not-flex {
         display: flex; 
         gap: 10px; 
-        margin-left: 39.2%;
+        margin-left: 38.9%;
     }
     
     .center2 .layout-image .image-flex{
         display: flex; 
         gap: 10px; 
         margin-top: 10px; 
-        margin-left: 4%;
+        margin-left: 26%;
     }
     
     .equipment-content .equipment-images .image-not-flex{
@@ -571,7 +571,6 @@
 @media(max-width: 800px){
 
     .top .left-img img{
-        position: relative;
         width: 167px;
         height: 59px;
     }
@@ -592,8 +591,7 @@
       display: block;
     }
     nav ul{
-        position: relative;
-        width: 56%;
+        width: 49%;
         height: 135px;
         list-style: none;
         display: flex;
@@ -613,14 +611,12 @@
 
 
     .top .left-img img {
-        position: relative;
         padding: 27px;
         height: 42px;
         width: 100px;
     }
 
     nav ul{
-        position: relative;
         width: 50%;
         height: 80px;
         list-style: none;

@@ -69,7 +69,6 @@ body::-webkit-scrollbar {
   
 
 .left-img img {
-    position: fixed;
     padding: 40px;
     width: 215px;
     height: 75px;
@@ -79,9 +78,7 @@ nav{
     display: flex;
   }
   nav ul{
-    height: 20%;
-    position: fixed;
-    width: 95%;
+    width: 75%;
     list-style: none;
     display: flex;
     justify-content: flex-end;
@@ -94,7 +91,6 @@ nav{
     height: 50px;
   }
   nav a{
-    background: rgba(0, 0, 0, 0.15);
     padding: 2px;
     text-decoration: none;
     color: #FFF;
@@ -102,14 +98,6 @@ nav{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-  }
-
-  nav a:hover{
-    color: #000;
-    background-color: #ffffff;
-    transition: 3ms ease-in-out;
-    border-radius: 10px;
-    padding: 2px;
   }
 
   .sidebar{
@@ -140,7 +128,7 @@ nav{
 
   
 .main-content {
-    height: 125%;
+    height: 80%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -353,26 +341,26 @@ nav{
     display: flex; 
     gap: 50px; 
     margin-bottom: 50px; 
-    margin-left: 6.4%;
+    margin-left: 17.2%;
 }
 
 .center .layout-image .image-not-flex {
     display: flex; 
     gap: 50px; 
-    margin-left: 43.9%;
+    margin-left: 66.4%;
 }
 
 .center2 .layout-image .image-not-flex {
     display: flex; 
     gap: 50px; 
-    margin-left: 43.9%;
+    margin-left: 43.7%;
 }
 
 .center2 .layout-image .image-flex{
     display: flex; 
     gap: 50px; 
     margin-top: 50px; 
-    margin-left: 6.4%;
+    margin-left: 27.6%;
 }
 
 .equipment-content .equipment-images .image-not-flex{
@@ -391,6 +379,7 @@ nav{
     width: 500px; 
     height: 180px; 
     border-radius: 25px;
+    object-fit: cover;
 }
 
 .center .layout-image .image-flex .img2 {
