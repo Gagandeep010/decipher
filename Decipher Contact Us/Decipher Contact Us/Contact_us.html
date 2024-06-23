@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+   <head>
+	   <title>Decipher Studios | Contact Form</title>
+	 <meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+	 <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	 <link rel="stylesheet" href="css/contact_us_style.css">
+	 <link rel="icon" href="images/Logo.png">
+ 
+	 <style>
+		 .dbox {
+			 width: 100%;
+		 }
+		 .text {
+			 word-wrap: break-word;
+		 }
+	 </style>
+   </head>
+   <body>
+		 <header>
+			 <a href="/index.html">
+				 <img src="images/DecipherStudio Logo 4.png" alt="Brand Logo" height="75" width="200">
+			 </a>
+		 </header>
+		 
+	 <section class="ftco-section">
+		 <div class="container">
+			 <div class="row justify-content-center">
+				 <div class="col-md-6 text-center mb-5">
+				 </div>
+			 </div>
+			 <div class="row justify-content-center">
+				 <div class="col-md-12">
+					 <div class="wrapper">
+						 <div class="row no-gutters">
+							 <div class="col-lg-6">
+								 <div class="contact-wrap w-100 p-md-5 p-4">
+									 <h3>Contact us</h3>
+									 <p class="mb-4">Let's have a chat. Take the first step to book the studio</p>
+									 <div id="form-message-warning" class="mb-4"></div> 
+									   <div id="form-message-success" class="mb-4">
+										 Your message was sent, thank you!
+									   </div>
+									 <div class="row mb-4">
+										 <div class="col-md-12">
+											 <div class="dbox w-100 d-flex align-items-start">
+												 <div class="text">
+													 <p><span>Address:</span><a href="https://maps.app.goo.gl/sRo39GSEKT8XfhrY7" target="_blank" class="multi-line-address">36/A, Aashirvad,<br> S. No. 270, 2, Baner Rd,<br> Pallod Farms, Pashan,<br> Pune, Maharashtra<br> 411045</a></p>
+												   </div>
+											   </div>
+										 </div>
+										 <div class="col-md-12">
+											 <div class="dbox w-100 d-flex align-items-start">
+												 <div class="text">
+													 <p><span>Email:</span> <a href="mailto:connect.decipherstudio@gmail.com">connect.decipherstudio@gmail.com</a></p>
+												   </div>
+											   </div>
+										 </div>
+										 <div class="col-md-12">
+											 <div class="dbox w-100 d-flex align-items-start">
+												 <div class="text">
+													 <p><span>Phone:</span> <a href="tel://9112032033">+91 9112032033</a></p>
+												   </div>
+											   </div>
+										 </div>
+									 </div>
+									 <form method="POST" id="contactForm" name="contactForm" class="contactForm">
+										 <div class="row">
+											 <div class="col-md-12">
+												 <div class="form-group">
+													 <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+												 </div>
+											 </div>
+											 <div class="col-md-12"> 
+												 <div class="form-group">
+													 <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+												 </div>
+											 </div>
+											 <div class="col-md-12">
+												 <div class="form-group">
+													 <input type="text" class="form-control" name="phone" id="phone" placeholder="Phone Number" pattern="\d{10}" maxlength="10" inputmode="numeric" required oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 10);">
+												 </div>
+											 </div>
+											 <div class="col-md-12">
+												 <div class="form-group">
+													 <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Write your message here"></textarea>
+												 </div>
+											 </div>
+											 <div class="col-md-12">
+												 <div class="form-group">
+													 <div class="submitting"></div>
+												 </div>
+											 </div>
+										 </div>
+									 </form>
+									 <button class="btn custom-btn" value="Send Message" type="button">Send Message</button>
+									 <div class="w-100 social-media mt-5">
+										 <h3>Follow us here</h3>
+										 <p>
+											 <a href="https://www.facebook.com/profile.php?id=61560178574606" target="_blank">Facebook</a>
+											 <a href="https://wa.me/9112032033" target="_blank">Whatsapp</a>
+											 <a href="https://www.instagram.com/decipherstudio_/" target="_blank">Instagram</a>
+										 </p>
+									 </div>
+								 </div>
+							 </div>
+							 <div class="col-lg-6 d-flex align-items-stretch">
+								 <div class="info-wrap w-100 p-5 img" style="background-image: url(images/img.jpg);">
+								   </div>
+							 </div>
+						 </div>
+					 </div>
+				 </div>
+			 </div>
+		 </div>
+	 </section>
+ 
+	 <script src="js/jquery.min.js"></script>
+	   <script src="js/popper.js"></script>
+	   <script src="js/bootstrap.min.js"></script>
+	   <script src="js/jquery.validate.min.js"></script>
+	   <script src="js/main.js"></script>
+ 
+   </body>
+ </html>
+ 
